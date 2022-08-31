@@ -28,9 +28,9 @@ steps:
     jdkDirectory: # Required when javaHomeOption == Path
     jdkArchitectureOption: 'x64' # Optional. Options: x86, x64
     gradleOptions: '-Xmx1024m' # Optional
-    sonarQubeRunAnalysis: false 
-    sqGradlePluginVersionChoice: 'specify' # Required when sonarQubeRunAnalysis == True# Options: specify, build
-    sonarQubeGradlePluginVersion: '2.6.1' # Required when sonarQubeRunAnalysis == True && SqGradlePluginVersionChoice == Specify
+    # sonarQubeRunAnalysis: false 
+    # sqGradlePluginVersionChoice: 'specify' # Required when sonarQubeRunAnalysis == True# Options: specify, build
+    # sonarQubeGradlePluginVersion: '2.6.1' # Required when sonarQubeRunAnalysis == True && SqGradlePluginVersionChoice == Specify
     #checkStyleRunAnalysis: false # Optional
     #findBugsRunAnalysis: false # Optional
     #pmdRunAnalysis: false # Optional
