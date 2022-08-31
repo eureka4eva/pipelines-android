@@ -6,6 +6,19 @@
 pool:
   vmImage: 'macOS-latest'
 
+trigger:
+  branches:
+    include:
+      # - 'development'
+      # - 'staging'
+      - 'master'
+      
+pr: none
+
+resources:
+  pipelines:
+  - pipeline: 
+
 steps:
 
 # Gradle
