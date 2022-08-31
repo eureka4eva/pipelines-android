@@ -15,10 +15,6 @@ trigger:
       
 pr: none
 
-resources:
-  pipelines:
-  - pipeline: string
-
 steps:
 
 # Gradle
